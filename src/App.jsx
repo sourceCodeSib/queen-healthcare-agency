@@ -42,7 +42,6 @@ const App = () => {
               <Contact data={landingPageData.Contact} />
           </React.Fragment>
           } />
-          <Route path="/contact" element={ <h1>Contact</h1>} />
           <Route path="/register" element={ 
             <React.Fragment>
               <Register />

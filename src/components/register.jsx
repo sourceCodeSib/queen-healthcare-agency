@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 export const Register = (props) => {
     return (
       <div id='register-content'>
         <div className="register-nav">
-          <a className='navbar-brand' href='/'>
-              <img className='logo' src='img/logo.svg' alt="QUEEN HEALTHCARE AGENCY"/>
-            </a>
+          <Link className='navbar-brand' to='/'>
+            <img className='logo' src='img/logo.svg' alt="QUEEN HEALTHCARE AGENCY"/>
+          </Link>
         </div>
         <div id="register">
           <div className="register-form">
@@ -40,7 +42,7 @@ export const Register = (props) => {
                 <textarea  type="textarea" class="form-control" id="address" />
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>
-              <button class="btn btn-default back-btn"><a href='/'>Back</a></button>
+              <Link to="/"><button class="btn btn-default back-btn">Back</button></Link>
             </form>
           </div>
         </div>
