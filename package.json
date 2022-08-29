@@ -1,6 +1,6 @@
 {
+  "homepage": "http://sourceCodeSib.github.io/queen-healthcare-agency",
   "name": "queen-health-care",
-  "homepage": "http://sourceCodeSib/github.io/queen-healthcare-agency",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
