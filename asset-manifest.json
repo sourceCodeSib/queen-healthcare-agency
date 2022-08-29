@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/github.io/queen-healthcare-agency/static/css/main.7c90efc5.chunk.css",
+    "main.js": "/github.io/queen-healthcare-agency/static/js/main.7d98af55.chunk.js",
+    "main.js.map": "/github.io/queen-healthcare-agency/static/js/main.7d98af55.chunk.js.map",
+    "runtime-main.js": "/github.io/queen-healthcare-agency/static/js/runtime-main.ee719463.js",
+    "runtime-main.js.map": "/github.io/queen-healthcare-agency/static/js/runtime-main.ee719463.js.map",
+    "static/js/2.3f6bf9ef.chunk.js": "/github.io/queen-healthcare-agency/static/js/2.3f6bf9ef.chunk.js",
+    "static/js/2.3f6bf9ef.chunk.js.map": "/github.io/queen-healthcare-agency/static/js/2.3f6bf9ef.chunk.js.map",
+    "index.html": "/github.io/queen-healthcare-agency/index.html",
+    "static/css/main.7c90efc5.chunk.css.map": "/github.io/queen-healthcare-agency/static/css/main.7c90efc5.chunk.css.map",
+    "static/js/2.3f6bf9ef.chunk.js.LICENSE.txt": "/github.io/queen-healthcare-agency/static/js/2.3f6bf9ef.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ee719463.js",
+    "static/js/2.3f6bf9ef.chunk.js",
+    "static/css/main.7c90efc5.chunk.css",
+    "static/js/main.7d98af55.chunk.js"
+  ]
+}
