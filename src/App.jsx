@@ -27,7 +27,7 @@ const App = () => {
   }, []);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/queen-healthcare-agency">
       <div>
         <Routes>
           <Route path="/" element={
