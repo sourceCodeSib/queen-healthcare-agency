@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/queen-healthcare-agency/static/css/main.7c90efc5.chunk.css",
-    "main.js": "/queen-healthcare-agency/static/js/main.a79f99bb.chunk.js",
-    "main.js.map": "/queen-healthcare-agency/static/js/main.a79f99bb.chunk.js.map",
+    "main.js": "/queen-healthcare-agency/static/js/main.99fee7b5.chunk.js",
+    "main.js.map": "/queen-healthcare-agency/static/js/main.99fee7b5.chunk.js.map",
     "runtime-main.js": "/queen-healthcare-agency/static/js/runtime-main.e767056f.js",
     "runtime-main.js.map": "/queen-healthcare-agency/static/js/runtime-main.e767056f.js.map",
     "static/js/2.3f6bf9ef.chunk.js": "/queen-healthcare-agency/static/js/2.3f6bf9ef.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.e767056f.js",
     "static/js/2.3f6bf9ef.chunk.js",
     "static/css/main.7c90efc5.chunk.css",
-    "static/js/main.a79f99bb.chunk.js"
+    "static/js/main.99fee7b5.chunk.js"
   ]
 }
