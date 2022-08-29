@@ -4275,7 +4275,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand:focus {
   text-decoration: none;
 }
-.logo {
+.navbar-brand .logo {
   margin-top: 5px;
   height: 35px;
 }

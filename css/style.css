@@ -638,24 +638,25 @@ label {
 }
 
 .register-nav .logo {
-  padding-top: 2px;
+  padding-top: 8px;
 }
 
 .register-form h3 {
   text-align: center;
   margin: 10px;
-  color: #1d08b1;
+  color: #F8F0E3;
 }
 
 #register .register-form {
   width: 350px;
   padding: 20px;
   border: 2px solid #E94364;
+  background-color:rgba(0, 0, 0, 0.4);
 }
 
 .register-form label {
   font-weight: bold;
-  color: black;
+  color: #F8F0E3;
 }
 
 .register-form .back-btn {
