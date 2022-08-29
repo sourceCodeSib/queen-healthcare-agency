@@ -4,7 +4,7 @@ export const Register = (props) => {
     return (
       <div id='register-content'>
         <div className="register-nav">
-          <Link className='navbar-brand' to='/'>
+          <Link to='/'>
             <img className='logo' src='img/logo.svg' alt="QUEEN HEALTHCARE AGENCY"/>
           </Link>
         </div>
