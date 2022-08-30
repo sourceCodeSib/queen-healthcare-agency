@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/queen-healthcare-agency/static/css/main.a5b97d67.chunk.css",
+    "main.css": "/queen-healthcare-agency/static/css/main.7938fd6e.chunk.css",
     "main.js": "/queen-healthcare-agency/static/js/main.659b0c97.chunk.js",
     "main.js.map": "/queen-healthcare-agency/static/js/main.659b0c97.chunk.js.map",
     "runtime-main.js": "/queen-healthcare-agency/static/js/runtime-main.e767056f.js",
@@ -8,13 +8,13 @@
     "static/js/2.b98defb5.chunk.js": "/queen-healthcare-agency/static/js/2.b98defb5.chunk.js",
     "static/js/2.b98defb5.chunk.js.map": "/queen-healthcare-agency/static/js/2.b98defb5.chunk.js.map",
     "index.html": "/queen-healthcare-agency/index.html",
-    "static/css/main.a5b97d67.chunk.css.map": "/queen-healthcare-agency/static/css/main.a5b97d67.chunk.css.map",
+    "static/css/main.7938fd6e.chunk.css.map": "/queen-healthcare-agency/static/css/main.7938fd6e.chunk.css.map",
     "static/js/2.b98defb5.chunk.js.LICENSE.txt": "/queen-healthcare-agency/static/js/2.b98defb5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e767056f.js",
     "static/js/2.b98defb5.chunk.js",
-    "static/css/main.a5b97d67.chunk.css",
+    "static/css/main.7938fd6e.chunk.css",
     "static/js/main.659b0c97.chunk.js"
   ]
 }
