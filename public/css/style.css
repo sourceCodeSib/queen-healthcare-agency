@@ -619,15 +619,16 @@ label {
 /* Register Section */
 #register-content {
   background: url(../img/register.jpg) no-repeat center center fixed;
+  background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
+  -o-background-size: cover;
 }
 #register {
-  width: 400px;
-  margin: 100px auto;
-  height: 84%;
+  width:350px;
+  margin:100px auto;
+  height: 100%;
 }
 
 .register-nav {
@@ -647,7 +648,7 @@ label {
 }
 
 #register .register-form {
-  width: 400px;
+  width: 350px;
   padding: 20px;
   border: 2px solid #E94364;
   background-color:rgba(0, 0, 0, 0.4);
