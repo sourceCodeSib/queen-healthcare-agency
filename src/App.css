@@ -1,15 +1,15 @@
 @media screen and (max-width: 400px) {
-  #services {
-    width: 180%;
+  #header {
+    width: 100%;
   }
   #about,
-  #header,
   #services,
   #testimonials,
   #team,
   #contact,
+  #services
   #footer,
   #quote {
-    width: 180%;
+    width: 135%;
   }
 }

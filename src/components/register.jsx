@@ -21,6 +21,13 @@ export const Register = (props) => {
                 <input type="email" class="form-control" id="email" />
               </div>
               <div class="form-group">
+                <label for="gender">Gender:</label>
+                <select class="form-control" id="gender">
+                  <option>Male</option>
+                  <option>Female</option>
+                </select>
+              </div>
+              <div class="form-group">
                 <label for="role">Registering for:</label>
                 <select class="form-control" id="role">
                   <option>Nurse</option>
