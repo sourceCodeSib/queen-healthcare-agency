@@ -41,6 +41,7 @@ p {
 p.intro {
   margin: 12px 0 0;
   line-height: 24px;
+  font-weight: 200;
 }
 a {
   color: #608dfd;
@@ -76,7 +77,7 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #E94364;
+  background-color: #1065D4;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -101,7 +102,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #115DA9 0%, #6372ff 100%);
+  background: linear-gradient(to right, #dfe3e7 0%, #9ca1ce 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -122,7 +123,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #115DA9 0%, #6372ff 100%) !important;
+  background: linear-gradient(to right, #dfe3e7 0%, #9ca1ce 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -202,16 +203,13 @@ a:focus,
 }
 /* Header Section */
 .intro {
-  display: table;
   width: 100%;
   padding: 0;
   margin-top: 70px;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/intro-bg.jpg);
   background-color: #e5e5e5;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
-  -o-background-size: cover;
+  background-position: center;
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
@@ -238,7 +236,7 @@ a:focus,
   margin-bottom: 60px;
 }
 header .intro-text {
-  padding-top: 350px;
+  padding-top: 260px;
   padding-bottom: 200px;
   text-align: center;
 }
@@ -427,7 +425,7 @@ header .intro-text {
 }
 .testimonial-content p {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 18px;
   font-style: italic;
 }
 .testimonial-meta {
@@ -439,14 +437,15 @@ header .intro-text {
 
 /* Quote Section */
 #quote {
-  padding: 50px 0 50px;
-  background: url(../img/testimonials/quote.jpg);
+  padding: 20px 0 50px;
+  background: url(../img/quote.jpg);
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  color: #fff;
+  color: #000;
+  font-style:italic;
 
   /* Set a specific height */
   min-height: 250px;
@@ -471,24 +470,7 @@ header .intro-text {
   font-weight: bold;
   float: right;
 }
-/* Team Section */
-#team {
-  padding: 100px 0;
-}
-#team h4 {
-  margin: 5px 0;
-}
-#team .team-img {
-  width: 240px;
-}
-#team .thumbnail {
-  background: transparent;
-  border: 0;
-}
-#team .thumbnail .caption {
-  padding: 10px 0 0;
-  color: #888;
-}
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
@@ -616,47 +598,41 @@ label {
   background: #fff;
 }
 
-/* Register Section */
-#register-content {
-  background: url(../img/register.jpg) no-repeat center center fixed;
-  background-color: #e5e5e5;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-#register {
-  width:350px;
-  margin:100px auto;
-  height: 100%;
+#contact .fa-whatsapp {
+  color: #1e7a46;
 }
 
-.register-nav {
+/* Register Section */
+#register {
+  width: 365px;
+  margin: 80px auto;
+}
+
+.sub-nav {
   height: 50px;
-  background-color: #E94364;
+  background-color: #1065D4;
   padding-left: 20px;
 }
 
-.register-nav .logo {
+.sub-nav .logo {
   padding-top: 8px;
 }
 
 .register-form h3 {
   text-align: center;
   margin: 10px;
-  color: #F8F0E3;
+  color: #000;
 }
 
 #register .register-form {
-  width: 350px;
+  width: 365px;
   padding: 20px;
-  border: 2px solid #E94364;
-  background-color:rgba(0, 0, 0, 0.4);
+  border: 2px solid #1065D4;
 }
 
 .register-form label {
   font-weight: bold;
-  color: #F8F0E3;
+  color: #000;
 }
 
 .register-form .back-btn {
@@ -665,7 +641,7 @@ label {
 
 /* Footer Section*/
 #footer {
-  background: #E94364;
+  background: #1065D4;
   padding: 10px 0;
 }
 #footer p {
@@ -685,4 +661,9 @@ label {
   #about img {
     margin: 50px 0;
   }
+}
+
+/*cookies section*/
+#cookies .container{
+  padding-top: 100px;
 }

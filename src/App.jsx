@@ -1,5 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import React from 'react';
+import CookieConsent from "react-cookie-consent";
 
 import { useState, useEffect } from "react"
 import { Navigation } from "./components/navigation";
@@ -8,8 +9,8 @@ import { About } from "./components/about";
 import { Register } from "./components/register";
 import { Services } from "./components/services";
 import { Quote } from "./components/quote";
+import { Cookies } from "./components/cookies";
 import { Testimonials } from "./components/testimonials";
-import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
@@ -27,29 +28,34 @@ const App = () => {
   }, []);
 
   return (
-    <BrowserRouter basename="/queen-healthcare-agency">
-      <div>
-        <Routes>
-          <Route path="/" element={
-            <React.Fragment>
-              <Navigation />
-              <Header data={landingPageData.Header} />
-              <About data={landingPageData.About} />
-              <Services data={landingPageData.Services} />
-              <Testimonials data={landingPageData.Testimonials} />
-              <Quote />
-              <Team data={landingPageData.Team} />
-              <Contact data={landingPageData.Contact} />
-          </React.Fragment>
-          } />
-          <Route path="/register" element={ 
-            <React.Fragment>
-              <Register />
+    <>
+      <CookieConsent>This website uses cookies to enhance the user experience</CookieConsent>
+      <BrowserRouter >
+          <Routes>
+            <Route path="" element={
+              <React.Fragment>
+                <Navigation />
+                <Header data={landingPageData.Header} />
+                <About data={landingPageData.About} />
+                <Services data={landingPageData.Services} />
+                <Quote />
+                <Testimonials data={landingPageData.Testimonials} />
+                <Contact data={landingPageData.Contact} />
             </React.Fragment>
-          } />
-        </Routes>
-      </div>
-    </BrowserRouter>
+            } />
+            <Route path="/register" element={ 
+              <React.Fragment>
+                <Register />
+              </React.Fragment>
+            } />
+            <Route path="/cookies" element={ 
+              <React.Fragment>
+                <Cookies />
+              </React.Fragment>
+            } />
+          </Routes>
+      </BrowserRouter>
+    </>
   );
 };
 

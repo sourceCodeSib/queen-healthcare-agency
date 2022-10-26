@@ -19,18 +19,17 @@ export const Contact = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log(name, email, message)
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        'service_2m6um1l', 'template_wpui6c9', e.target, 'hV84mVozxY_2Zv00W'
       )
       .then(
         (result) => {
-          console.log(result.text)
-          clearState()
+          clearState();
+          alert('Thanks for contacting us :), someone from the team will contact you shortly');
         },
         (error) => {
-          console.log(error.text)
+          clearState();
         }
       )
   }
@@ -47,7 +46,7 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name='sentMessage' validate onSubmit={handleSubmit}>
+              <form name='contactForm' validate onSubmit={handleSubmit}>
                 <div className='row'>
                   <div className='col-md-6'>
                     <div className='form-group'>
@@ -57,6 +56,7 @@ export const Contact = (props) => {
                         name='name'
                         className='form-control'
                         placeholder='Name'
+                        value={name}
                         required
                         onChange={handleChange}
                       />
@@ -71,6 +71,7 @@ export const Contact = (props) => {
                         name='email'
                         className='form-control'
                         placeholder='Email'
+                        value={email}
                         required
                         onChange={handleChange}
                       />
@@ -86,6 +87,7 @@ export const Contact = (props) => {
                     rows='4'
                     placeholder='Message'
                     required
+                    value={message}
                     onChange={handleChange}
                   ></textarea>
                   <p className='help-block text-danger'></p>
@@ -113,6 +115,22 @@ export const Contact = (props) => {
                   <i className='fa fa-phone'></i> Phone
                 </span>{' '}
                 {props.data ? props.data.phone : 'loading'}
+              </p>
+            </div>
+            <div className='contact-item'>
+              <p>
+                <span>
+                  <i className='fa fa-whatsapp'></i> Whatsapp
+                </span>{' '}
+                {props.data ? props.data.phone : 'loading'}
+              </p>
+            </div>
+            <div className='contact-item'>
+              <p>
+                <span>
+                  <i className='fa fa-clock-o'></i> Working time
+                </span>{' '}
+                {props.data ? props.data.working_time : 'loading'}
               </p>
             </div>
             <div className='contact-item'>

@@ -1,7 +1,7 @@
 {
   "Header": {
     "title": "QUEEN HEALTHCARE AGENCY",
-    "paragraph": "Specialises in supporting clients when no-one else can. Whether the requirement is last minute, unusual, remote or difficult to cover, we are here to help :)"
+    "paragraph": "With over 10 years of experience in healthcare, we know the sector inside out and are experts in the field. By focusing on the uniqueness, needs, and personality of our clients, we ensure that we find the best fit and expert careers for a broad range of healthcare services."
   },
   "About": {
     "paragraph": "Queen Healthcare Agency offers peace of mind to both healthcare service providers and those searching for new opportunities in helping them to find the fit they're looking for. We offer an array of roles, including working with both the old and young, in public and private healthcare settings, and in home care settings. We also provide opportunities to locum doctors, nurses, carers, pharmacists, pharmacy technicians and optometrists, as well as in the areas of physiotherapy and occupational health. ",
@@ -21,117 +21,59 @@
   "Services": [
     {
       "name": "NURSES",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.",
+      "text": "Queen Health Care is dedicated to offering high quality, client-centered services that support people's freedom, autonomy, and inclusion.",
       "url": "img/services/nurse.jpg"
     },
     {
-      "name": "DOCTORS",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.",
-      "url": "img/services/doctor.jpg"
-    },
-    {
       "name": "HOMECARE SERVICE",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.",
+      "text": "Queen Health Care provides customized services  for elderly people who need our support which help them to have a happy and great life.",
       "url": "img/services/homecare.jpg"
     },
     {
       "name": "HEALTHCARE ASSISTANTS",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.",
+      "text": "Queen Healthcare, we have an extensive team of consultants and team members, dedicated to the placing of Healthcare Assistants – either on a Temporary or Permanent basis.",
       "url": "img/services/carer.jpg"
     },
     {
-      "name": "AGENCY STAFF",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.",
-      "url": "img/services/agency.jpg"
+      "name": "CLEANING STAFF",
+      "text": "Nursing homes all throughout Ireland can avail of the entire spectrum of contract cleaning services offered by Queen health care on a daily, weekly, and monthly basis.",
+      "url": "img/services/cleaning.jpg"
     },
     {
-      "name": "LAB TECHNICIANS",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.",
-      "url": "img/services/lab.jpg"
+      "name": "KITCHEN STAFF",
+      "text": "Queen Health Care is an expert in providing staffing services for Nursing homes, including chefs, kitchen assistants, and kitchen porters.",
+      "url": "img/services/kitchen.jpg"
+    },
+    {
+      "name": "RECEPTIONIST",
+      "text": "Queen Health Care provides all front of house reception services, being the first point of contact for guests and clients.",
+      "url": "img/services/reception.jpg"
     }
   ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "Queen health care is one of the best recommendations, the staff are great and accessibility to get the service is good. I would love to recommend this agency.",
+      "name": "Jimmy"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "The staff are good and we are very happy with their services.",
+      "name": "Diana"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
-    }
-  ],
-  "Team": [
-    {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "CEO"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "CTO"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Manager"
+      "text": "Queen health care takes care of all the services whenever we need, we are very happy to associate with this team.",
+      "name": "Chris"
     }
   ],
   "Contact": {
     "address": "Porter's Gate Ave, Coolmine Industrial Estate, Dublin, D15 E2CF",
-    "phone": "+353 89 9793 965",
-    "email": "queenlthealthcareagency2@gmail.com",
+    "phone": "+353 89 613 0239",
+    "email": "hr@queenhealthcareagency.com",
+    "working_time": "Mon-Fri: 9:30am to 6pm, Sat: 10am to 5pm",
     "facebook": "https://www.facebook.com/QueenHealthAgency/",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
-  },
-  "Features": [
-    {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    }
-  ]
+  }
 }

@@ -1,15 +1,58 @@
-@media screen and (max-width: 400px) {
-  #header {
-    width: 100%;
+@media screen and (max-width: 500px) {
+  html, body {
+    overflow-x: hidden;
   }
-  #about,
-  #services,
-  #testimonials,
-  #team,
-  #contact,
-  #services
-  #footer,
+
+  .intro p {
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+
+  header .intro-text {
+    padding-top: 220px;
+  }
+
+  .intro h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+
+  .navbar-brand .logo {
+    height: 25px;
+  }
+
+  .navbar-toggle {
+    padding: 2px 1px;
+    margin-top: 5px;
+  }
+
+  .intro {
+    margin-top: 65px;
+  }
+
   #quote {
-    width: 165%;
+    display: none;
   }
+  
+}
+
+@media screen and (max-width: 200px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .intro p {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+
+  .intro h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .navbar-brand .logo {
+    height: 20px;
+  }
+  
 }
